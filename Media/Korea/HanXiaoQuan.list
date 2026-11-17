@@ -5,3 +5,8 @@
 
 DOMAIN,hxqapi.hiyun.tv
 DOMAIN-KEYWORD,hanju
+
+# SOOP 韩国直播 v1.5.0 · 皮卡丘（REX）
+# 原 AfreecaTV；游戏、电竞、体育、聊天、音乐舞蹈等直播
+# 客户端应绑定韩国节点策略；受限房间仍需源站认证。
+DOMAIN-SUFFIX,sooplive.com
