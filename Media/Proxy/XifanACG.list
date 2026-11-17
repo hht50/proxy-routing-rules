@@ -1,0 +1,9 @@
+# 追番网站 · XifanACG 播放与资源
+# 用户常用追番站点；来源为用户提供的四条域名规则。
+# 推荐出口：观影优选（可在 Surge / Mihomo 中自由选择地区与节点）。
+# 此规则集仅保存匹配条件，不绑定固定国家或策略名称。
+
+DOMAIN-SUFFIX,api.xifanacg.com
+DOMAIN-SUFFIX,apn.moedot.net
+DOMAIN-SUFFIX,play.xfvod.pro
+DOMAIN-SUFFIX,dl.playxf.top
