@@ -52,3 +52,7 @@ DOMAIN,yo.baidu.com
 
 # 悦听吧 v1.0.0 · Walkman（主站直连）
 DOMAIN-SUFFIX,yuetingba.cn
+
+# Emby 直连线路（仅域名，不存账号或密码）
+DOMAIN,emby1.5671234.xyz
+DOMAIN,emby2.5671234.xyz
