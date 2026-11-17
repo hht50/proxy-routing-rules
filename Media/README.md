@@ -2,17 +2,18 @@
 
 ## 地区目录
 
-| 地区 | 目录 | 收录范围 |
+| 地区 | 目录 | 当前规则 |
 | --- | --- | --- |
-| 🇯🇵 日本 | [Japan](Japan/) | 日本媒体及日本出口专用规则 |
-| 🇰🇷 韩国 | [Korea](Korea/) | 韩剧、韩国流媒体 |
-| 🇨🇳 中国大陆 | [China](China/) | 国内短剧、视频、影视 |
-| 🌐 国际 / 待分类 | [Global](Global/) | 跨地区与地区待确认媒体 |
+| 🇯🇵 日本 | [Japan](Japan/) | [日本媒体](Japan/JapanMedia.list)、[黄果](Japan/HuangGuo.list) |
+| 🇰🇷 韩国 | [Korea](Korea/) | [韩小圈](Korea/HanXiaoQuan.list) |
+| 🇨🇳 中国大陆 | [China](China/) | [中国短剧](China/ChinaShortDrama.list) |
+| 🌐 国际 / 待分类 | [Global](Global/) | [XifanACG](Global/XifanACG.list)、[成人媒体通用](Adu)、[成人媒体越南版](Adu-vietnam.list) |
 
 ## 维护约定
 
-1. 以后新增媒体规则优先按地区写入 `Media/<Region>/<Service>.list`。
-2. 一个服务一个规则文件，规则文件只包含匹配条件，不写代理策略。
-3. 旧路径暂不删除，保证 Surge / Mihomo / OpenClash 的现有 Raw 订阅继续有效。
-4. 站点所属地区与代理出口分开记录；未确认的地区先放 Global。
-5. 越南、台湾、香港、新加坡等地区按需要增建目录，不创建空文件夹。
+1. 新增媒体规则优先放入 `Media/<Region>/<Service>.list`，每个服务独立文件。
+2. 规则集只写域名/IP 匹配条件，出口策略由 Surge、Mihomo、OpenClash 各自配置。
+3. 旧路径仍保留以避免已有订阅失效。**目前新旧路径为独立副本，不会自动同步**；完成客户端迁移前，修改已有规则需同步更新两处。
+4. 按服务地区归类，代理出口另行标注；地区未知的先放 `Global`。黄果按日本出口需求暂归日本目录。
+5. 不将越南版成人规则误认为网站属于越南；未来可按需求增加 Vietnam、Taiwan、HongKong 等目录。
+6. 同一域名可能出现在不同服务的专用集合中，需以客户端规则优先级确定最终策略。
