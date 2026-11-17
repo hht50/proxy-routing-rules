@@ -1,4 +1,4 @@
-# 越南媒体 VietnamMedia v1.0.0
+# 越南媒体 VietnamMedia v1.1.0
 # 从本仓库 vietnam.list 与 vngeneral 中的影视、视频、音乐规则提取。
 # 不含新闻、电商、社交、银行及成人内容；不加入泛用 CDN。
 # 注意：原综合规则仍可能包含同域名；实际分流按客户端主配置先匹配者为准。
@@ -51,3 +51,25 @@ DOMAIN,phim.nguonc.com
 DOMAIN,player.phimapi.com
 DOMAIN,embed18.streamc.xyz
 DOMAIN,phimimg.com
+
+# 2026-11 补充：越南正版 OTT / 电视平台（公开官方站点核对）
+# VTVgo：越南国家数字电视
+DOMAIN-SUFFIX,vtvgo.vn
+
+# Galaxy Play：正版电影与剧集
+DOMAIN-SUFFIX,galaxyplay.vn
+
+# MyTV：VNPT 电视 / OTT
+DOMAIN-SUFFIX,mytv.com.vn
+
+# Clip TV：越南电视 / 点播
+DOMAIN-SUFFIX,cliptv.vn
+
+# POPS：动画 / 娱乐视频
+DOMAIN-SUFFIX,pops.vn
+
+# SCTV：有线电视 / 在线媒体
+DOMAIN-SUFFIX,sctv.com.vn
+
+# HTV：胡志明市电视台
+DOMAIN-SUFFIX,htv.com.vn
