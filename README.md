@@ -76,6 +76,7 @@ rules:
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
+| [中国短剧与短视频](Media/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/ChinaShortDrama.list) |
 | [日本媒体](Media/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/JapanMedia.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
 | [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
