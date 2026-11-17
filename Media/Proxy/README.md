@@ -4,6 +4,7 @@
 
 | 站点 | 规则 | 推荐策略 |
 | --- | --- | --- |
+| 悦听吧图片资源 | [YueTingBa-Images.list](YueTingBa-Images.list) | 代理/观影优选；`images.weserv.nl` 为共享图片服务，可能影响其他站点 |
 | XifanACG 追番 | [XifanACG.list](XifanACG.list) | 观影优选（Surge / Mihomo 自行选择节点） |
 
 旧订阅兼容：[`Media/Global/XifanACG.list`](../Global/XifanACG.list) 和 [`Media/XifanACG.list`](../XifanACG.list) 暂时保留。新旧文件为独立副本，不会自动同步；迁移客户端引用后再考虑清理。
