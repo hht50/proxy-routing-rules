@@ -4,7 +4,7 @@
 | --- | --- | --- | --- |
 | 🇨🇳 中国大陆 | [China/ChinaShortDrama.list](China/ChinaShortDrama.list) | DIRECT | 国内短剧、悦听吧主站等 |
 | 🇯🇵 日本 | [Japan/JapanMedia.list](Japan/JapanMedia.list) | 日本节点策略 | 日本媒体、黄果等 |
-| 🇰🇷 韩国 | [Korea/HanXiaoQuan.list](Korea/HanXiaoQuan.list) | 韩国节点策略 | 韩小圈等 |
+| 🇰🇷 韩国 | [Korea/HanXiaoQuan.list](Korea/HanXiaoQuan.list) | 韩国节点策略 | 韩小圈、SOOP 韩国直播等 |
 | 🔀 代理 | [Proxy/Proxy.list](Proxy/Proxy.list) | 观影优选 / PROXY | XifanACG、悦听吧图片等 |
 | 🌐 国际 / 待分类 | [Global](Global/) | 按实际用途 | 尚未合并的通用媒体规则 |
 
