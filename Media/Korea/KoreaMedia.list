@@ -1,4 +1,4 @@
-# 韩国媒体 KoreaMedia v2.0.0
+# 韩国媒体 KoreaMedia v2.1.0
 # 覆盖：韩小圈、SOOP/AfreecaTV、CHZZK、TVING、Wavve、WATCHA、Coupang Play、
 #       Naver TV、KakaoTV、KBS、MBC、SBS、JTBC、ENA、TV CHOSUN、MBN、tvN。
 # 仅收录明确的媒体服务域名；避免关键词和通用云/CDN域名误伤其他业务。
@@ -72,3 +72,21 @@ DOMAIN-SUFFIX,tvchosun.com
 
 # MBN
 DOMAIN-SUFFIX,mbn.co.kr
+
+# 韩国动画 OTT：Laftel
+DOMAIN-SUFFIX,laftel.net
+
+# 体育直播：SPOTV NOW
+DOMAIN-SUFFIX,spotvnow.co.kr
+DOMAIN-SUFFIX,spotvnow.com
+
+# 个人直播：PandaTV
+DOMAIN-SUFFIX,pandalive.co.kr
+
+# K-pop 直播 / 视频：Weverse、Mnet Plus
+DOMAIN-SUFFIX,weverse.io
+DOMAIN-SUFFIX,mnetplus.world
+
+# 韩国教育电视及国际频道：EBS、Arirang TV
+DOMAIN-SUFFIX,ebs.co.kr
+DOMAIN-SUFFIX,arirang.com
