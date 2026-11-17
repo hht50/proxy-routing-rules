@@ -4,4 +4,4 @@
 
 不再按网站创建独立规则文件。`images.weserv.nl` 是共享图片代理域名，可能影响其他站点。
 
-旧 XifanACG 独立规则路径暂保留兼容；统一规则集与旧文件不会自动同步，后续以 `Proxy.list` 为主。
+XifanACG 已合并至 `Proxy.list`，旧独立副本已删除。
