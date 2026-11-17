@@ -1,0 +1,11 @@
+# 媒体代理通用规则 · 可在客户端绑定观影优选 / PROXY
+# 规则集不绑定具体国家；共享图片服务可能影响其他网站。
+
+# XifanACG 追番
+DOMAIN-SUFFIX,api.xifanacg.com
+DOMAIN-SUFFIX,apn.moedot.net
+DOMAIN-SUFFIX,play.xfvod.pro
+DOMAIN-SUFFIX,dl.playxf.top
+
+# 悦听吧 v1.0.0 · Walkman（图片代理）
+DOMAIN-SUFFIX,images.weserv.nl
