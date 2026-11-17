@@ -80,11 +80,11 @@ rules:
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [中国短剧与短视频](Media/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/ChinaShortDrama.list) |
-| [黄果](Media/HuangGuo.list) | 黄果站点及图片域名；建议日本节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/HuangGuo.list) |
-| [韩小圈 · 韩剧](Media/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/HanXiaoQuan.list) |
-| [XifanACG 追番](Media/XifanACG.list) | 常用追番站点 API、播放及下载资源；建议代理 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/XifanACG.list) |
-| [日本媒体](Media/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/JapanMedia.list) |
+| [中国短剧与短视频](Media/China/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
+| [黄果](Media/Japan/HuangGuo.list) | 黄果站点及图片域名；建议日本节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/HuangGuo.list) |
+| [韩小圈 · 韩剧](Media/Korea/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
+| [XifanACG 追番](Media/Global/XifanACG.list) | 常用追番站点 API、播放及下载资源；建议代理 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Global/XifanACG.list) |
+| [日本媒体](Media/Japan/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
 | [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
 | [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TMDB) |
@@ -97,6 +97,9 @@ rules:
 | [PUBG](PUBG) | PUBG 相关规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/PUBG) |
 | [成人媒体](Media/Adu) | 通用版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu) |
 | [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu-vietnam.list) |
+
+
+> 以上五个媒体规则已建立地区目录副本，旧路径仍可订阅。新旧文件目前不自动同步，更新规则时需同步维护，待客户端迁移后再清理旧路径。
 
 ### 地区与网络
 
