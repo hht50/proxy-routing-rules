@@ -1,0 +1,74 @@
+# 韩国媒体 KoreaMedia v2.0.0
+# 覆盖：韩小圈、SOOP/AfreecaTV、CHZZK、TVING、Wavve、WATCHA、Coupang Play、
+#       Naver TV、KakaoTV、KBS、MBC、SBS、JTBC、ENA、TV CHOSUN、MBN、tvN。
+# 仅收录明确的媒体服务域名；避免关键词和通用云/CDN域名误伤其他业务。
+# 建议客户端绑定韩国节点；具体服务仍可能要求韩国账号、版权区域及 DRM。
+
+# 韩小圈
+DOMAIN,hxqapi.hiyun.tv
+DOMAIN-KEYWORD,hanju
+
+# SOOP（原 AfreecaTV）
+DOMAIN-SUFFIX,sooplive.com
+DOMAIN-SUFFIX,sooplivecdn.com
+DOMAIN-SUFFIX,sooplive.net
+DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-SUFFIX,afreeca.com
+DOMAIN-SUFFIX,afreecatv.net
+
+# CHZZK（Naver 直播）
+DOMAIN-SUFFIX,chzzk.naver.com
+
+# TVING
+DOMAIN-SUFFIX,tving.com
+DOMAIN-SUFFIX,tving.net
+
+# Wavve
+DOMAIN-SUFFIX,wavve.com
+DOMAIN-SUFFIX,wavve.co.kr
+DOMAIN-SUFFIX,pooq.co.kr
+
+# WATCHA
+DOMAIN-SUFFIX,watcha.com
+DOMAIN-SUFFIX,watcha.net
+DOMAIN-SUFFIX,watchaplay.com
+
+# Coupang Play（不包含整个 coupang.com 电商域）
+DOMAIN-SUFFIX,coupangplay.com
+DOMAIN-SUFFIX,coupangplay.co.kr
+
+# Naver TV / 视频（不包含整个 naver.com）
+DOMAIN-SUFFIX,tv.naver.com
+DOMAIN-SUFFIX,serieson.naver.com
+
+# KakaoTV（不包含整个 kakao.com）
+DOMAIN-SUFFIX,kakaotv.com
+DOMAIN-SUFFIX,tv.kakao.com
+
+# KBS
+DOMAIN-SUFFIX,kbs.co.kr
+DOMAIN-SUFFIX,kbsworld.co.kr
+
+# MBC
+DOMAIN-SUFFIX,imbc.com
+DOMAIN-SUFFIX,mbc.co.kr
+
+# SBS
+DOMAIN-SUFFIX,sbs.co.kr
+DOMAIN-SUFFIX,sbs.com.au
+
+# JTBC
+DOMAIN-SUFFIX,jtbc.co.kr
+DOMAIN-SUFFIX,jtbc.com
+
+# tvN / CJ ENM（仅媒体品牌域）
+DOMAIN-SUFFIX,tvn.cjenm.com
+
+# ENA / SKY
+DOMAIN-SUFFIX,ena.skylifetv.co.kr
+
+# TV CHOSUN
+DOMAIN-SUFFIX,tvchosun.com
+
+# MBN
+DOMAIN-SUFFIX,mbn.co.kr
