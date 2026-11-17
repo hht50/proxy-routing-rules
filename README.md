@@ -85,9 +85,9 @@ rules:
 | [Emby 专项](Media/Emby/) | 服务、直连及代理线路 |
 | [影视元数据与歌词](Media/Metadata/) | TMDB、Trakt、歌词 |
 | [媒体社交](Media/Social/) | TikTok |
-| [成人媒体](Media/Adult/) | 通用及越南版 |
+| [成人媒体](Media/Adult/General.listlt/) | 通用及越南版 |
 
-旧路径暂时保留，避免已部署的 Surge、Mihomo/OpenClash 订阅失效。新目录历史副本不自动与旧路径同步，迁移客户端后再清理旧路径。
+旧媒体路径已删除，Surge 与 Mihomo 主配置已切换到 Media 新路径；其他客户端需同步更新旧订阅地址。
 
 ### 地区与网络
 
@@ -123,7 +123,7 @@ rules:
 ## 维护说明
 
 - [越南通用](vngeneral)用于当前 Mihomo 配置。[vietnam.list](vietnam.list)保留独立条目，合并前逐条核对用途。
-- 成人媒体通用版统一使用 [Media/Adu](Media/Adu)，Surge、Mihomo 和 Stash 可引用同一个 Raw 地址。
+- 成人媒体通用版统一使用 [Media/Adult/General.list](Media/Adult/General.list)，Surge、Mihomo 和 Stash 可引用同一个 Raw 地址。
 - [台湾 IPv4 清单](dailoanip.list)的来源和生成日期尚未核实。启用前先核对网段归属与更新方式。
 - [Gameupdate](Gameupdate)按游戏资源域名匹配。需要补游戏下载节点时，按日志添加具体主机，避免把共享 CDN 的其他业务一起直连。
 - [Meta 社交旧清单](facebook.list)含 Facebook、Instagram 和 ASN 匹配，引用前核对客户端支持与策略范围。
