@@ -1,4 +1,5 @@
-# 日本媒体图片与资源域名
+# 日本媒体 JapanMedia v2.0.0
+# 日本影视、电视、动画、音乐平台；保留原有资源域名。\n# 仅列平台相关域名，第三方 CDN/DRM 依实际日志补充。
 
 DOMAIN-SUFFIX,pics.dmm.co.jp
 DOMAIN-SUFFIX,awsimgsrc.dmm.co.jp
@@ -9,3 +10,41 @@ DOMAIN-SUFFIX,huangguoai.com
 DOMAIN-SUFFIX,pic.drleao.cn
 DOMAIN-SUFFIX,rIhjeyuvw.cc
 DOMAIN-SUFFIX,hzjvlo.cn
+
+# 日本主流 OTT / 电视回看（平台官方入口）
+DOMAIN-SUFFIX,abema.tv
+DOMAIN-SUFFIX,tver.jp
+DOMAIN-SUFFIX,unext.jp
+DOMAIN-SUFFIX,hulu.jp
+DOMAIN-SUFFIX,fod.fujitv.co.jp
+DOMAIN-SUFFIX,telasa.jp
+DOMAIN-SUFFIX,lemino.docomo.ne.jp
+DOMAIN-SUFFIX,video.unext.jp
+DOMAIN-SUFFIX,wowow.co.jp
+DOMAIN-SUFFIX,nhk-ondemand.jp
+DOMAIN-SUFFIX,nhk.jp
+DOMAIN-SUFFIX,radiko.jp
+DOMAIN-SUFFIX,spox.jp
+
+# 动画 / 日本视频平台
+DOMAIN-SUFFIX,animestore.docomo.ne.jp
+DOMAIN-SUFFIX,animehodai.jp
+DOMAIN-SUFFIX,b-ch.com
+DOMAIN-SUFFIX,nicovideo.jp
+DOMAIN-SUFFIX,nimg.jp
+DOMAIN-SUFFIX,dmm.com
+DOMAIN-SUFFIX,videomarket.jp
+DOMAIN-SUFFIX,rakuten.tv
+DOMAIN-SUFFIX,linkvod.myjcom.jp
+DOMAIN-SUFFIX,milplus.jp
+DOMAIN-SUFFIX,dizm.mbs.jp
+
+# 日本音乐平台（避免整个 LINE、Rakuten 等非媒体业务）
+DOMAIN-SUFFIX,music.line.me
+DOMAIN-SUFFIX,awa.fm
+DOMAIN-SUFFIX,recochoku.jp
+DOMAIN-SUFFIX,mora.jp
+DOMAIN-SUFFIX,ototoy.jp
+DOMAIN-SUFFIX,music-book.jp
+DOMAIN-SUFFIX,music.rakuten.co.jp
+DOMAIN-SUFFIX,dhits.docomo.ne.jp
