@@ -1,8 +1,7 @@
 # 🇰🇷 韩国媒体 · 统一规则集
 
-**主规则集：** [HanXiaoQuan.list](HanXiaoQuan.list)，统一收录韩小圈和 SOOP 韩国直播（`sooplive.com`）。客户端绑定韩国节点策略。
+**主规则集：** [KoreaMedia.list](KoreaMedia.list)，包含韩小圈、SOOP/AfreecaTV、CHZZK、TVING、Wavve、WATCHA、Coupang Play、韩国电视台及其他视频平台。
 
-- 韩小圈：韩剧模块资源加载，原规则保留。
-- SOOP v1.5.0（皮卡丘）：游戏、电竞、体育及其他直播；19+ 房间仍需源站成人认证。
+客户端推荐绑定 `🇰🇷韩国智选`。旧的 `HanXiaoQuan.list` 已删除，请勿再引用。
 
-SOOP 旧规则中的扩展域名和关键词已合并；`DOMAIN-KEYWORD` 匹配范围较广，请关注实际命中情况。旧文件已删除。
+说明：`DOMAIN-KEYWORD,hanju` 和部分电视台主域名匹配范围较宽；平台的 DRM、视频 CDN 与账号区域限制需要按实际连接记录进一步核对。
