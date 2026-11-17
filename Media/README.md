@@ -1,20 +1,17 @@
-# Media 媒体规则 · 地区索引
+# Media 媒体规则 · 按出口策略分类
 
-## 地区目录
-
-| 地区 | 目录 | 当前规则 |
-| --- | --- | --- |
-| 🇯🇵 日本 | [Japan](Japan/) | [日本媒体](Japan/JapanMedia.list)、[黄果](Japan/HuangGuo.list) |
-| 🇰🇷 韩国 | [Korea](Korea/) | [韩小圈](Korea/HanXiaoQuan.list) |
-| 🇨🇳 中国大陆 | [China](China/) | [中国短剧](China/ChinaShortDrama.list)、[悦听吧主站](China/YueTingBa.list) |
-| 🌐 国际 / 待分类 | [Global](Global/) | [成人媒体通用](Adu)、[成人媒体越南版](Adu-vietnam.list) |
-| 🔀 代理 · 自选出口 | [Proxy](Proxy/) | [XifanACG 追番](Proxy/XifanACG.list)、[悦听吧图片](Proxy/YueTingBa-Images.list) |
+| 分类 | 统一规则集 | 推荐客户端策略 | 内容 |
+| --- | --- | --- | --- |
+| 🇨🇳 中国大陆 | [China/ChinaShortDrama.list](China/ChinaShortDrama.list) | DIRECT | 国内短剧、悦听吧主站等 |
+| 🇯🇵 日本 | [Japan/JapanMedia.list](Japan/JapanMedia.list) | 日本节点策略 | 日本媒体、黄果等 |
+| 🇰🇷 韩国 | [Korea/HanXiaoQuan.list](Korea/HanXiaoQuan.list) | 韩国节点策略 | 韩小圈等 |
+| 🔀 代理 | [Proxy/Proxy.list](Proxy/Proxy.list) | 观影优选 / PROXY | XifanACG、悦听吧图片等 |
+| 🌐 国际 / 待分类 | [Global](Global/) | 按实际用途 | 尚未合并的通用媒体规则 |
 
 ## 维护约定
 
-1. 新增媒体规则优先放入 `Media/<Region>/<Service>.list`；不绑定地区的代理影视资源放 `Media/Proxy/`，每个服务独立文件。
-2. 规则集只写域名/IP 匹配条件，出口策略由 Surge、Mihomo、OpenClash 各自配置。
-3. 旧路径仍保留以避免已有订阅失效。**目前新旧路径为独立副本，不会自动同步**；完成客户端迁移前，修改已有规则需同步更新两处。
-4. 按服务地区归类；需要代理但允许自行选择出口的放 `Proxy`，地区未知且未明确代理用途的放 `Global`。黄果按日本出口需求暂归日本目录。
-5. 不将越南版成人规则误认为网站属于越南；未来可按需求增加 Vietnam、Taiwan、HongKong 等目录。
-6. 同一域名可能出现在不同服务的专用集合中，需以客户端规则优先级确定最终策略。
+1. **同一出口策略共用一个规则集**，新增域名追加到对应主规则文件，不为单个网站新建订阅文件。
+2. 规则集只包含匹配条件；DIRECT、日本、韩国、观影优选等策略由客户端指定。
+3. 不同出口必须拆分，不能将 `yuetingba.cn`（直连）与 `images.weserv.nl`（代理）放入同一集合。
+4. 旧独立文件暂时保留兼容历史订阅，未来逐步迁移客户端引用。旧文件与主规则集不自动同步。
+5. 共享 CDN 域名可能影响其他网站，新增前应核对匹配范围与规则优先级。
