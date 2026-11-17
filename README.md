@@ -74,19 +74,16 @@ rules:
 
 ### 媒体地区分类
 
-媒体规则按地区管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/) · [代理自选出口](Media/Proxy/)。现有规则文件保留原路径，避免已有订阅失效；今后新增媒体规则优先存入对应地区目录。
+媒体规则按出口策略汇总管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/) · [代理自选出口](Media/Proxy/)。现有规则文件保留原路径，避免已有订阅失效；今后新增域名直接追加到对应策略的统一规则集。
 
 ### 媒体、游戏与下载
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [中国短剧与短视频](Media/China/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
-| [悦听吧 · 主站直连](Media/China/YueTingBa.list) | Walkman v1.0.0 有声小说、评书主站；DIRECT | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/YueTingBa.list) |
-| [悦听吧 · 图片代理](Media/Proxy/YueTingBa-Images.list) | 图片代理服务 `images.weserv.nl`；共享域名，建议代理 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/YueTingBa-Images.list) |
-| [黄果](Media/Japan/HuangGuo.list) | 黄果站点及图片域名；建议日本节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/HuangGuo.list) |
+| [中国大陆 · 直连](Media/China/ChinaShortDrama.list) | 国内短剧、悦听吧等；DIRECT | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
+| [日本 · 媒体统一规则](Media/Japan/JapanMedia.list) | 日本媒体、黄果等；日本策略 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
+| [代理 · 媒体统一规则](Media/Proxy/Proxy.list) | XifanACG、悦听吧图片等；观影优选 / PROXY | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/Proxy.list) |
 | [韩小圈 · 韩剧](Media/Korea/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
-| [XifanACG 追番](Media/Proxy/XifanACG.list) | 常用追番站点 API、播放及下载资源；交由观影优选自行选节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/XifanACG.list) |
-| [日本媒体](Media/Japan/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
 | [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
 | [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TMDB) |
@@ -101,7 +98,9 @@ rules:
 | [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu-vietnam.list) |
 
 
-> 以上五个媒体规则已建立地区目录副本，旧路径仍可订阅。新旧文件目前不自动同步，更新规则时需同步维护，待客户端迁移后再清理旧路径。
+
+
+> 媒体域名按出口策略合并到主规则集，不再为每个站点创建新的订阅文件。旧独立规则路径暂保留兼容。
 
 ### 地区与网络
 
