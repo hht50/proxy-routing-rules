@@ -16,6 +16,11 @@ DOMAIN-KEYWORD,pornhub
 DOMAIN-SUFFIX,xvideos.com        # 全球最大免费色情视频站
 DOMAIN-SUFFIX,xnxx.com           # 大型免费视频站，xvideos系
 DOMAIN-SUFFIX,xhamster.com       # 综合视频站，有直播功能
+# HQporner 及关联播放器/CDN（HQporner v1.0.0）
+DOMAIN-SUFFIX,hqporner.com
+DOMAIN-SUFFIX,mydaddy.cc
+DOMAIN-SUFFIX,bigcdn.cc
+
 DOMAIN-SUFFIX,pornhub.com        # 全球知名综合成人平台
 DOMAIN-SUFFIX,porn.com           # 综合成人视频
 DOMAIN-SUFFIX,pornhat.com        # 综合成人视频
