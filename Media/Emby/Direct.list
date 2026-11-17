@@ -2,3 +2,5 @@
 # 必须放在 Proxy.list 前；仅精确匹配 a.115cdn.de，不直连整个 115cdn.de。
 DOMAIN,a.115cdn.de
 DOMAIN,directstream-bljb7fnhtkyxwfrw.apple-cdn.net
+# 玛卡巴卡公益反代网站
+DOMAIN,luvme.de5.net
