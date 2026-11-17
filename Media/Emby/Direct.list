@@ -1,3 +1,4 @@
-#映月国内线路 
+# Emby / 映月：明确直连的播放主机
+# 必须放在 Proxy.list 前；仅精确匹配 a.115cdn.de，不直连整个 115cdn.de。
 DOMAIN,a.115cdn.de
 DOMAIN,directstream-bljb7fnhtkyxwfrw.apple-cdn.net
