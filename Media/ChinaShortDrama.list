@@ -49,3 +49,6 @@ DOMAIN-SUFFIX,9ddm.com
 # 精确主机名（避免扩展到整个 baidu.com）
 DOMAIN,sv.baidu.com
 DOMAIN,yo.baidu.com
+
+# 悦听吧 v1.0.0 · Walkman（主站直连）
+DOMAIN-SUFFIX,yuetingba.cn
