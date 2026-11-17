@@ -10,3 +10,13 @@ DOMAIN-KEYWORD,hanju
 # 原 AfreecaTV；游戏、电竞、体育、聊天、音乐舞蹈等直播
 # 客户端应绑定韩国节点策略；受限房间仍需源站认证。
 DOMAIN-SUFFIX,sooplive.com
+
+# SOOP / AfreecaTV 历史扩展域名（来自旧 Soop 规则）
+DOMAIN-SUFFIX,sooplivecdn.com
+DOMAIN-SUFFIX,sooplive.net
+DOMAIN-SUFFIX,afreecatv.com
+DOMAIN-SUFFIX,afreeca.com
+DOMAIN-SUFFIX,afreecatv.net
+# 旧版关键词范围较广，可能匹配其他域名；保留原始规则供现有用户迁移
+DOMAIN-KEYWORD,soop
+DOMAIN-KEYWORD,afreeca
