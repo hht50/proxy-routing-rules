@@ -3,4 +3,4 @@
 - [General.list](General.list)：综合成人媒体。
 - [Vietnam.list](Vietnam.list)：越南使用场景规则。
 
-原路径 `Media/Adu`、`Media/Adu-vietnam.list` 暂保留兼容。
+旧路径已删除，统一使用本目录路径。
