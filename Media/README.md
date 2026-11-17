@@ -1,25 +1,24 @@
 # Media · 媒体分流规则总目录
 
-所有媒体相关规则统一从本目录维护，按出口地区和业务类型组织。
+按地区与用途维护媒体规则；规则文件仅包含匹配条件，出口由 Surge / Mihomo 客户端决定。
 
-## 目录结构
+| 子目录 | 规则与用途 |
+| --- | --- |
+| [China](China/) | [ChinaShortDrama.list](China/ChinaShortDrama.list)：大陆短剧、直播及历史直连条目 |
+| [Japan](Japan/) | [JapanMedia.list](Japan/JapanMedia.list)：日本影视、电视、动画、音乐 |
+| [Korea](Korea/) | [KoreaMedia.list](Korea/KoreaMedia.list)：韩国影视、直播、电视 |
+| [Vietnam](Vietnam/) | [VietnamMedia.list](Vietnam/VietnamMedia.list)：越南影视、电视、音乐、动漫 |
+| [Emby](Emby/) | [Direct.list](Emby/Direct.list)、[Services.list](Emby/Services.list)、[Proxy.list](Emby/Proxy.list)：播放直连、服务、代理 |
+| [Proxy](Proxy/) | [Proxy.list](Proxy/Proxy.list)：其他媒体代理 |
+| [Metadata](Metadata/) | [TMDB.list](Metadata/TMDB.list)、[Trakt.list](Metadata/Trakt.list)、[Lyrics.list](Metadata/Lyrics.list) |
+| [Social](Social/) | [TikTok.list](Social/TikTok.list) |
+| [Adult](Adult/) | 成人媒体独立规则，详见 [README](Adult/README.md) |
+| [Global](Global/) | [说明](Global/README.md)：国际媒体与待分类内容 |
 
-| 子目录 | 内容 | 主要入口 |
-| --- | --- | --- |
-| [China](China/) | 中国大陆直连：短剧、悦听吧、体育直播、Emby 直连域名 | [ChinaShortDrama.list](China/ChinaShortDrama.list) |
-| [Japan](Japan/) | 日本媒体 | [JapanMedia.list](Japan/JapanMedia.list) |
-| [Korea](Korea/) | 韩国媒体：韩小圈、SOOP | [HanXiaoQuan.list](Korea/HanXiaoQuan.list) |
-| [Proxy](Proxy/) | 观影优选 / 代理自选出口 | [Proxy.list](Proxy/Proxy.list) |
-| [Global](Global/) | 国际媒体及待分类规则 | [说明](Global/README.md) |
-| [Emby](Emby/) | Emby 服务、国内直连与代理播放线路 | [说明](Emby/README.md) |
-| [Metadata](Metadata/) | TMDB、Trakt、歌词服务 | [说明](Metadata/README.md) |
-| [Social](Social/) | TikTok 等媒体社交平台 | [说明](Social/README.md) |
-| [Adult](Adult/) | 成人媒体通用规则、越南版 | [说明](Adult/README.md) |
+## 规则优先级与维护
 
-## 维护约定
-
-1. **按出口策略汇总**：中国大陆、日本、韩国、Proxy 各自维护统一规则集，不再为每个站点新建独立策略规则。
-2. **业务子目录用于收纳**：Emby、Metadata、Social、Adult 为媒体专项规则；不能仅凭目录位置决定出口，仍需由客户端指定策略。
-3. 规则集仅保存匹配条件，不把 `DIRECT` 或具体节点写入域名行。
-4. 旧媒体路径已移除，统一从 `Media/` 下的子目录引用；更新 Surge、Mihomo/OpenClash 配置后刷新订阅。
-5. SOOP 的历史域名与关键词规则已并入韩国统一规则集；宽泛关键词可能命中其他服务。
+1. Surge、Mihomo 都按规则顺序先匹配者生效；专用媒体规则应尽量位于宽泛 GEOIP / 综合规则之前。
+2. Emby 必须先引用 `Direct.list`，再引用 `Services.list` 与 `Proxy.list`。`a.115cdn.de` 精确直连，其余 `115cdn.de` 子域由代理规则匹配。
+3. 韩国规则统一使用 `Media/Korea/KoreaMedia.list`；`HanXiaoQuan.list` 已删除。
+4. 地区媒体规则的范围可能与综合规则重叠；实际命中应通过客户端连接记录验证。
+5. 规则文件不写具体策略或节点；修改后刷新规则提供者并断开旧连接重新测试。
