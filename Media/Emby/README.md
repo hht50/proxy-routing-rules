@@ -1,18 +1,28 @@
 # Emby 分流规则
 
-| 规则集 | 用途 | 推荐策略 |
+统一保留 **两个**规则集：
+
+| 规则集 | 内容 | 客户端策略 |
 | --- | --- | --- |
-| [Direct.list](Direct.list) | 映月国内直连主机（精确域名） | `DIRECT` |
-| [Services.list](Services.list) | Emby 站点、接口及服务 | `Emby` |
-| [Proxy.list](Proxy.list) | 映月代理播放线路 | `Emby` |
+| [Direct.list](Direct.list) | 明确要直连的播放主机 | `DIRECT` |
+| [Proxy.list](Proxy.list) | 代理播放线路、Emby 服务入口和接口 | `Emby` |
 
-## `115cdn.de` 的优先级
+## 优先级
 
-- `Direct.list` 使用 `DOMAIN,a.115cdn.de`，该主机必须直连。
-- `Proxy.list` 使用 `DOMAIN-SUFFIX,115cdn.de`，覆盖根域名及其余子域名，默认交给 `Emby` 策略。
-- **两条规则有意重叠**：客户端按规则顺序先匹配者生效，必须按 `Direct → Services → Proxy` 顺序引用。不要把 `DOMAIN-SUFFIX,115cdn.de,DIRECT` 放在代理规则之前，否则全部子域都会直连。
-- Surge 与 Mihomo 其他内联规则中也可能包含 `115cdn.de`；应避免更靠前的宽泛直连覆盖。
+客户端必须先引用 `Direct.list`，再引用 `Proxy.list`。
 
-## 维护
+- `DOMAIN,a.115cdn.de` 精确走 `DIRECT`
+- `DOMAIN-SUFFIX,115cdn.de` 匹配根域名与其他子域，走 `Emby`
 
-服务入口与播放线路应分开维护，勿将 Emby 域名放进短剧规则集。现有 [ChinaShortDrama.list](../China/ChinaShortDrama.list) 仍含两条 Emby 直连主机，属于待整理的历史配置。修改后请刷新规则提供者并重新建立播放连接。
+`Services.list` 的原有六条规则已完整并入 `Proxy.list`，不再需要单独订阅。客户端中其他早于以上规则的宽泛域名匹配仍可能改变结果，请以实际命中日志为准。
+
+## 使用方式
+
+Surge：
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Emby/Direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Emby/Proxy.list,Emby
+```
+
+Mihomo：将上述两个 URL 作为 `classical` 规则提供者，依次绑定 `DIRECT`、`Emby`。修改后刷新订阅并重建旧连接。
