@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | 🇯🇵 日本 | [Japan](Japan/) | [日本媒体](Japan/JapanMedia.list)、[黄果](Japan/HuangGuo.list) |
 | 🇰🇷 韩国 | [Korea](Korea/) | [韩小圈](Korea/HanXiaoQuan.list) |
-| 🇨🇳 中国大陆 | [China](China/) | [中国短剧](China/ChinaShortDrama.list) |
+| 🇨🇳 中国大陆 | [China](China/) | [中国短剧](China/ChinaShortDrama.list)、[悦听吧主站](China/YueTingBa.list) |
 | 🌐 国际 / 待分类 | [Global](Global/) | [成人媒体通用](Adu)、[成人媒体越南版](Adu-vietnam.list) |
-| 🔀 代理 · 自选出口 | [Proxy](Proxy/) | [XifanACG 追番](Proxy/XifanACG.list) |
+| 🔀 代理 · 自选出口 | [Proxy](Proxy/) | [XifanACG 追番](Proxy/XifanACG.list)、[悦听吧图片](Proxy/YueTingBa-Images.list) |
 
 ## 维护约定
 
