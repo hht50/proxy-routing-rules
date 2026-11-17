@@ -1,0 +1,7 @@
+# 韩小圈 HanXiaoQuan v1.0.0
+# 来源：Y佬 · 韩小圈模块（https://t.me/c/4406303336/48407）
+# 用途：韩剧模块资源加载；策略由客户端配置决定。
+# 推荐策略：韩国时延优选（需在客户端中存在该策略组）。
+
+DOMAIN,hxqapi.hiyun.tv
+DOMAIN-KEYWORD,hanju
