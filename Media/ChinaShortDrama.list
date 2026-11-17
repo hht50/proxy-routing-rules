@@ -56,3 +56,12 @@ DOMAIN-SUFFIX,yuetingba.cn
 # Emby 直连线路（仅域名，不存账号或密码）
 DOMAIN,emby1.5671234.xyz
 DOMAIN,emby2.5671234.xyz
+
+# 体育直播（蜘蛛·绿茵）整合版 v1.0.0 · 皮卡丘
+# REX 体育 / 直播模块；国内源，需直连；实际播放以源站为准。
+DOMAIN-SUFFIX,k8v4dh4.app
+DOMAIN-SUFFIX,zzzb.tv
+DOMAIN-SUFFIX,zzzb93vip.app
+DOMAIN-SUFFIX,zzzb138vip.app
+DOMAIN-SUFFIX,9939.com
+DOMAIN-SUFFIX,9939zb4.app
