@@ -1,0 +1,8 @@
+# 追番网站 · XifanACG 播放与资源
+# 用户常用追番站点；来源为用户提供的四条域名规则。
+# 建议代理出口；具体策略由客户端配置决定。
+
+DOMAIN-SUFFIX,api.xifanacg.com
+DOMAIN-SUFFIX,apn.moedot.net
+DOMAIN-SUFFIX,play.xfvod.pro
+DOMAIN-SUFFIX,dl.playxf.top
