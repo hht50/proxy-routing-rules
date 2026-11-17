@@ -79,6 +79,7 @@ rules:
 | [中国短剧与短视频](Media/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/ChinaShortDrama.list) |
 | [黄果](Media/HuangGuo.list) | 黄果站点及图片域名；建议日本节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/HuangGuo.list) |
 | [韩小圈 · 韩剧](Media/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/HanXiaoQuan.list) |
+| [XifanACG 追番](Media/XifanACG.list) | 常用追番站点 API、播放及下载资源；建议代理 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/XifanACG.list) |
 | [日本媒体](Media/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/JapanMedia.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
 | [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
