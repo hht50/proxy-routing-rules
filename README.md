@@ -72,6 +72,10 @@ rules:
 | [Yeetalk](yeetalk.list) | 语言交流应用 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/yeetalk.list) |
 | [Meta AI · Muse](Meta/Muse.list) | Muse 和 Meta AI 域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Meta/Muse.list) |
 
+### 媒体地区分类
+
+媒体规则按地区管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/)。现有规则文件保留原路径，避免已有订阅失效；今后新增媒体规则优先存入对应地区目录。
+
 ### 媒体、游戏与下载
 
 | 规则集 | 用途 | 订阅地址 |
