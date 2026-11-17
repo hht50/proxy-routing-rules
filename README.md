@@ -72,35 +72,22 @@ rules:
 | [Yeetalk](yeetalk.list) | 语言交流应用 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/yeetalk.list) |
 | [Meta AI · Muse](Meta/Muse.list) | Muse 和 Meta AI 域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Meta/Muse.list) |
 
-### 媒体地区分类
+### 媒体规则 · 统一目录
 
-媒体规则按出口策略汇总管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/) · [代理自选出口](Media/Proxy/)。现有规则文件保留原路径，避免已有订阅失效；今后新增域名直接追加到对应策略的统一规则集。
+所有媒体规则已集中归档到 **[Media 媒体总目录](Media/README.md)**，下设中国大陆、日本、韩国、Proxy、Global、Emby、Metadata、Social、Adult 子目录。
 
-### 媒体、游戏与下载
+| 常用入口 | 说明 |
+| --- | --- |
+| [中国大陆直连](Media/China/ChinaShortDrama.list) | 国内短剧、悦听吧、体育直播、Emby 直连 |
+| [日本媒体](Media/Japan/JapanMedia.list) | 日本出口 |
+| [韩国媒体](Media/Korea/HanXiaoQuan.list) | 韩小圈、SOOP |
+| [代理自选](Media/Proxy/Proxy.list) | 观影优选 / PROXY |
+| [Emby 专项](Media/Emby/) | 服务、直连及代理线路 |
+| [影视元数据与歌词](Media/Metadata/) | TMDB、Trakt、歌词 |
+| [媒体社交](Media/Social/) | TikTok |
+| [成人媒体](Media/Adult/) | 通用及越南版 |
 
-| 规则集 | 用途 | 订阅地址 |
-| --- | --- | --- |
-| [中国大陆 · 直连](Media/China/ChinaShortDrama.list) | 国内短剧、悦听吧等；DIRECT | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
-| [日本 · 媒体统一规则](Media/Japan/JapanMedia.list) | 日本媒体、黄果等；日本策略 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
-| [代理 · 媒体统一规则](Media/Proxy/Proxy.list) | XifanACG、悦听吧图片等；观影优选 / PROXY | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/Proxy.list) |
-| [韩国 · 媒体统一规则](Media/Korea/HanXiaoQuan.list) | 韩小圈、SOOP 韩国直播；韩国节点策略 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
-| [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
-| [SOOP 旧版独立规则](Soop) | 历史兼容文件；韩国媒体统一规则已收录 `sooplive.com` | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
-| [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TMDB) |
-| [Trakt](Trakt) | 影视记录服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Trakt) |
-| [歌词服务](Services/Lyrics.list) | 歌词相关端点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Lyrics.list) |
-| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/115.list) |
-| [下载与支付](Services/Download-Payment.list) | 下载与支付相关例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Download-Payment.list) |
-| [游戏更新](Gameupdate) | 游戏更新流量 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Gameupdate) |
-| [TFT](TFT) | 云顶之弈相关规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TFT) |
-| [PUBG](PUBG) | PUBG 相关规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/PUBG) |
-| [成人媒体](Media/Adu) | 通用版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu) |
-| [成人媒体 · 越南版](Media/Adu-vietnam.list) | 越南版规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Adu-vietnam.list) |
-
-
-
-
-> 媒体域名按出口策略合并到主规则集，不再为每个站点创建新的订阅文件。旧独立规则路径暂保留兼容。
+旧路径暂时保留，避免已部署的 Surge、Mihomo/OpenClash 订阅失效。新目录历史副本不自动与旧路径同步，迁移客户端后再清理旧路径。
 
 ### 地区与网络
 
