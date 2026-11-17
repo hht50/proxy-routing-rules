@@ -4,4 +4,4 @@
 - [Trakt.list](Trakt.list)：影视记录服务。
 - [Lyrics.list](Lyrics.list)：歌词服务。
 
-原路径 `TMDB`、`Trakt`、`Services/Lyrics.list` 暂保留兼容。
+旧顶层路径已删除，统一使用本目录路径。
