@@ -1,0 +1,5 @@
+# 悦听吧 v1.0.0 · Walkman
+# 图片资源代理；可由客户端观影优选/代理策略选择出口
+# 注意：images.weserv.nl 为跨站共享图片代理服务，规则可能影响其他网站。
+
+DOMAIN-SUFFIX,images.weserv.nl
