@@ -1,8 +1,7 @@
-# 🇨🇳 中国大陆媒体规则
+# 🇨🇳 中国大陆 · 直连规则
 
-| 规则 | 地区路径 | 旧路径（兼容） | 代理建议 |
-| --- | --- | --- | --- |
-| 悦听吧 v1.0.0（Walkman） | [YueTingBa.list](YueTingBa.list) | — | 主站直连；图片代理规则见 [Proxy](../Proxy/YueTingBa-Images.list) |
-| 中国短剧与短视频 | [ChinaShortDrama.list](ChinaShortDrama.list) | [旧版](../ChinaShortDrama.list) | 国内直连（部分共享域名需留意误匹配） |
+**统一规则集：** [ChinaShortDrama.list](ChinaShortDrama.list)（包含国内短剧、悦听吧 `yuetingba.cn` 等，客户端绑定 `DIRECT`）。
 
-新增规则优先维护地区路径。旧路径仍可用，但目前是独立副本，**不会自动同步**。
+不再按网站新建规则文件；新增中国大陆直连域名直接追加到统一规则集。
+
+兼容旧地址：[`Media/ChinaShortDrama.list`](../ChinaShortDrama.list)，本次已同步更新。历史独立规则如存在，仅为旧订阅兼容，不作为新规则维护入口。
