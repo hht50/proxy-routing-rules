@@ -2,8 +2,9 @@
 
 | 规则 | 地区路径 | 旧路径（兼容） | 说明 |
 | --- | --- | --- | --- |
-| XifanACG | [XifanACG.list](XifanACG.list) | [旧版](../XifanACG.list) | 追番 API 与播放源，网站地区未核实 |
 | 成人媒体通用 | [Adu](../Adu) | — | 综合成人媒体，仍使用原路径 |
 | 成人媒体越南版 | [Adu-vietnam.list](../Adu-vietnam.list) | — | 按越南使用场景分类，非网站所属地区 |
+
+XifanACG 已归入 [代理自选出口](../Proxy/XifanACG.list)，此目录旧副本暂时保留。
 
 新增规则优先维护地区路径。旧路径仍可用，但目前是独立副本，**不会自动同步**。
