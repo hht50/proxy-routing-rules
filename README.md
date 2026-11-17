@@ -83,9 +83,9 @@ rules:
 | [中国大陆 · 直连](Media/China/ChinaShortDrama.list) | 国内短剧、悦听吧等；DIRECT | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
 | [日本 · 媒体统一规则](Media/Japan/JapanMedia.list) | 日本媒体、黄果等；日本策略 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
 | [代理 · 媒体统一规则](Media/Proxy/Proxy.list) | XifanACG、悦听吧图片等；观影优选 / PROXY | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/Proxy.list) |
-| [韩小圈 · 韩剧](Media/Korea/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
+| [韩国 · 媒体统一规则](Media/Korea/HanXiaoQuan.list) | 韩小圈、SOOP 韩国直播；韩国节点策略 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
-| [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
+| [SOOP 旧版独立规则](Soop) | 历史兼容文件；韩国媒体统一规则已收录 `sooplive.com` | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
 | [TMDB](TMDB) | 影视元数据 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TMDB) |
 | [Trakt](Trakt) | 影视记录服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Trakt) |
 | [歌词服务](Services/Lyrics.list) | 歌词相关端点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Lyrics.list) |
