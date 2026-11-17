@@ -3,3 +3,11 @@
 # 这是有意的父子域覆盖，须确保 Direct.list 在本文件之前。
 DOMAIN,speedtest-babybus.apple-cdn.net
 DOMAIN-SUFFIX,115cdn.de
+
+# Emby 服务端与播放接口（原 Services.list，统一走 Emby）
+DOMAIN,emby.bbqwq.com
+DOMAIN,emby.bangumi.ca
+DOMAIN,levildewhite.liminalnet.team
+DOMAIN,api.1080zyku.com
+DOMAIN,api.xinlangapi.com
+DOMAIN-SUFFIX,cf.xmsl.org
