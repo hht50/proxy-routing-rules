@@ -1,3 +1,5 @@
-#映月播放线路
+# Emby / 映月：代理播放线路
+# 115cdn.de 的其他主机使用 Emby；a.115cdn.de 由更靠前的 Direct.list 精确匹配。
+# 这是有意的父子域覆盖，须确保 Direct.list 在本文件之前。
 DOMAIN,speedtest-babybus.apple-cdn.net
 DOMAIN-SUFFIX,115cdn.de
