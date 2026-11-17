@@ -1,0 +1,53 @@
+# 越南媒体 VietnamMedia v1.0.0
+# 从本仓库 vietnam.list 与 vngeneral 中的影视、视频、音乐规则提取。
+# 不含新闻、电商、社交、银行及成人内容；不加入泛用 CDN。
+# 注意：原综合规则仍可能包含同域名；实际分流按客户端主配置先匹配者为准。
+
+# 正版视频 / 电视 / OTT（vngeneral 与 vietnam.list）
+DOMAIN-SUFFIX,tv360.vn
+DOMAIN-SUFFIX,fptplay.vn
+DOMAIN-SUFFIX,fptplay.net
+DOMAIN-SUFFIX,vieon.vn
+DOMAIN-SUFFIX,vtv.vn
+DOMAIN-SUFFIX,vtc.vn
+
+# 音乐（vngeneral 与 vietnam.list）
+DOMAIN-SUFFIX,zingmp3.vn
+DOMAIN-SUFFIX,nhaccuatui.com
+DOMAIN-SUFFIX,nct.vn
+DOMAIN-SUFFIX,nhac.vn
+DOMAIN-SUFFIX,nctstatic.com
+DOMAIN-SUFFIX,nixcdn.com
+
+# 越南语影视 / 动漫（vietnam.list）
+DOMAIN-KEYWORD,animevietsub
+DOMAIN-SUFFIX,mephim.cc
+DOMAIN-SUFFIX,lamphim.net
+DOMAIN-SUFFIX,motphimtvx.com
+DOMAIN-SUFFIX,tvhayvn.org
+DOMAIN-SUFFIX,phimtvhay.org
+DOMAIN-SUFFIX,motphim.hair
+DOMAIN-SUFFIX,motchill.store
+DOMAIN-SUFFIX,motchillhd.net
+DOMAIN-SUFFIX,animevsub.io
+DOMAIN-SUFFIX,hh3d.com
+DOMAIN-SUFFIX,animevietsub.best
+DOMAIN-SUFFIX,hdbophim.com
+DOMAIN-SUFFIX,luotphimx.net
+DOMAIN-SUFFIX,ophim.live
+DOMAIN-SUFFIX,motchillw.com
+DOMAIN-SUFFIX,ophim1.com
+DOMAIN-SUFFIX,streamvsmov.com
+DOMAIN-SUFFIX,playembed.vip
+DOMAIN-SUFFIX,guphim.my
+DOMAIN-SUFFIX,opstream16.com
+DOMAIN-SUFFIX,guphim.fun
+DOMAIN-SUFFIX,onflixcdn.com
+DOMAIN,motphim.gay
+DOMAIN,sv1.video-cdn.online
+DOMAIN,cdn.phimsrv.com
+DOMAIN,phimapi.com
+DOMAIN,phim.nguonc.com
+DOMAIN,player.phimapi.com
+DOMAIN,embed18.streamc.xyz
+DOMAIN,phimimg.com
