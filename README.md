@@ -74,7 +74,7 @@ rules:
 
 ### 媒体地区分类
 
-媒体规则按地区管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/)。现有规则文件保留原路径，避免已有订阅失效；今后新增媒体规则优先存入对应地区目录。
+媒体规则按地区管理，详见 [Media 地区总索引](Media/README.md)：[日本](Media/Japan/) · [韩国](Media/Korea/) · [中国大陆](Media/China/) · [国际与待分类](Media/Global/) · [代理自选出口](Media/Proxy/)。现有规则文件保留原路径，避免已有订阅失效；今后新增媒体规则优先存入对应地区目录。
 
 ### 媒体、游戏与下载
 
@@ -83,7 +83,7 @@ rules:
 | [中国短剧与短视频](Media/China/ChinaShortDrama.list) | 红果、抖音、七猫、星芽、喜番、河马等；部分为共享域名，建议直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/China/ChinaShortDrama.list) |
 | [黄果](Media/Japan/HuangGuo.list) | 黄果站点及图片域名；建议日本节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/HuangGuo.list) |
 | [韩小圈 · 韩剧](Media/Korea/HanXiaoQuan.list) | 韩小圈 v1.0.0 模块资源加载；建议韩国时延优选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Korea/HanXiaoQuan.list) |
-| [XifanACG 追番](Media/Global/XifanACG.list) | 常用追番站点 API、播放及下载资源；建议代理 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Global/XifanACG.list) |
+| [XifanACG 追番](Media/Proxy/XifanACG.list) | 常用追番站点 API、播放及下载资源；交由观影优选自行选节点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Proxy/XifanACG.list) |
 | [日本媒体](Media/Japan/JapanMedia.list) | 图片与媒体资源 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Japan/JapanMedia.list) |
 | [TikTok](TIKTOK) | 自维护 TikTok 规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/TIKTOK) |
 | [SOOP](Soop) | 直播平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Soop) |
