@@ -1,17 +1,25 @@
-# Media 媒体规则 · 按出口策略分类
+# Media · 媒体分流规则总目录
 
-| 分类 | 统一规则集 | 推荐客户端策略 | 内容 |
-| --- | --- | --- | --- |
-| 🇨🇳 中国大陆 | [China/ChinaShortDrama.list](China/ChinaShortDrama.list) | DIRECT | 国内短剧、悦听吧主站等 |
-| 🇯🇵 日本 | [Japan/JapanMedia.list](Japan/JapanMedia.list) | 日本节点策略 | 日本媒体、黄果等 |
-| 🇰🇷 韩国 | [Korea/HanXiaoQuan.list](Korea/HanXiaoQuan.list) | 韩国节点策略 | 韩小圈、SOOP 韩国直播等 |
-| 🔀 代理 | [Proxy/Proxy.list](Proxy/Proxy.list) | 观影优选 / PROXY | XifanACG、悦听吧图片等 |
-| 🌐 国际 / 待分类 | [Global](Global/) | 按实际用途 | 尚未合并的通用媒体规则 |
+所有媒体相关规则统一从本目录维护，按出口地区和业务类型组织。
+
+## 目录结构
+
+| 子目录 | 内容 | 主要入口 |
+| --- | --- | --- |
+| [China](China/) | 中国大陆直连：短剧、悦听吧、体育直播、Emby 直连域名 | [ChinaShortDrama.list](China/ChinaShortDrama.list) |
+| [Japan](Japan/) | 日本媒体 | [JapanMedia.list](Japan/JapanMedia.list) |
+| [Korea](Korea/) | 韩国媒体：韩小圈、SOOP | [HanXiaoQuan.list](Korea/HanXiaoQuan.list) |
+| [Proxy](Proxy/) | 观影优选 / 代理自选出口 | [Proxy.list](Proxy/Proxy.list) |
+| [Global](Global/) | 国际媒体及待分类旧规则 | [说明](Global/README.md) |
+| [Emby](Emby/) | Emby 服务、国内直连与代理播放线路 | [说明](Emby/README.md) |
+| [Metadata](Metadata/) | TMDB、Trakt、歌词服务 | [说明](Metadata/README.md) |
+| [Social](Social/) | TikTok 等媒体社交平台 | [说明](Social/README.md) |
+| [Adult](Adult/) | 成人媒体通用规则、越南版 | [说明](Adult/README.md) |
 
 ## 维护约定
 
-1. **同一出口策略共用一个规则集**，新增域名追加到对应主规则文件，不为单个网站新建订阅文件。
-2. 规则集只包含匹配条件；DIRECT、日本、韩国、观影优选等策略由客户端指定。
-3. 不同出口必须拆分，不能将 `yuetingba.cn`（直连）与 `images.weserv.nl`（代理）放入同一集合。
-4. 旧独立文件暂时保留兼容历史订阅，未来逐步迁移客户端引用。旧文件与主规则集不自动同步。
-5. 共享 CDN 域名可能影响其他网站，新增前应核对匹配范围与规则优先级。
+1. **按出口策略汇总**：中国大陆、日本、韩国、Proxy 各自维护统一规则集，不再为每个站点新建独立策略规则。
+2. **业务子目录用于收纳**：Emby、Metadata、Social、Adult 为媒体专项规则；不能仅凭目录位置决定出口，仍需由客户端指定策略。
+3. 规则集仅保存匹配条件，不把 `DIRECT` 或具体节点写入域名行。
+4. 本次为安全迁移，**旧路径暂时保留兼容订阅**；新子目录中的历史文件是迁移副本，不会与旧路径自动同步。待 Surge、Mihomo/OpenClash 全部引用新地址后再清理旧文件。
+5. SOOP 的 `sooplive.com` 已加入韩国主规则集；[SOOP-Legacy.list](Korea/SOOP-Legacy.list) 仅为历史扩展规则备份，未全部合并进主规则。
