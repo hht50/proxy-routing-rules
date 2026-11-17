@@ -59,26 +59,6 @@ DOMAIN-SUFFIX,gamek.vn
 DOMAIN-SUFFIX,afamily.vn
 
 # =========================
-# 视频 / 娱乐 / 音乐
-# =========================
-DOMAIN-SUFFIX,zingmp3.vn
-DOMAIN-SUFFIX,tv360.vn
-DOMAIN-SUFFIX,fptplay.vn
-
-# =========================
-# NCT（NhacCuaTui 音乐）
-# =========================
-DOMAIN-SUFFIX,nhaccuatui.com
-DOMAIN-SUFFIX,nct.vn
-DOMAIN-SUFFIX,nhac.vn
-DOMAIN-SUFFIX,nctstatic.com
-DOMAIN-SUFFIX,nixcdn.com
-DOMAIN-SUFFIX,avatar-nct.nixcdn.com
-DOMAIN-SUFFIX,audio.nixcdn.com
-DOMAIN-SUFFIX,videonct.nixcdn.com
-DOMAIN-SUFFIX,stream.nixcdn.com
-
-# =========================
 # 招聘 / 分类信息
 # =========================
 DOMAIN-SUFFIX,vietnamworks.com
@@ -119,10 +99,8 @@ DOMAIN-SUFFIX,zing.vn
 DOMAIN-SUFFIX,vng.com.vn
 
 # =========================
-# CDN / 静态资源
+# 综合服务 CDN / 静态资源（媒体域名已迁移）
 # =========================
 DOMAIN-SUFFIX,vnecdn.net
 DOMAIN-SUFFIX,zingcdn.vn
-DOMAIN-SUFFIX,vtv.vn
 DOMAIN-SUFFIX,vcmedia.vn
-DOMAIN-SUFFIX,vtc.vn
