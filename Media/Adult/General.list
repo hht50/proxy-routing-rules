@@ -369,3 +369,7 @@ DOMAIN-SUFFIX,sex18.sbs
 
 # 补充站点域名
 DOMAIN-SUFFIX,176560kk.workers.dev
+
+# 下载与支付服务（原 Services/Download-Payment.list）
+DOMAIN,paymentico.com
+DOMAIN,loo3laej.com
