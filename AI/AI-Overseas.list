@@ -116,7 +116,6 @@ DOMAIN-SUFFIX,exa.ai
 DOMAIN-SUFFIX,fal.ai
 DOMAIN-SUFFIX,fireworks.ai
 DOMAIN,gateway.ai.cloudflare.com
-DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
@@ -189,3 +188,5 @@ DOMAIN-SUFFIX,voice.ai
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,zed.dev
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,metaaiusercontent.com
