@@ -1,0 +1,6 @@
+# 通用影视直连，按原有匹配位置引用
+DOMAIN,hkt.levilde.mom
+IP-CIDR,138.68.236.33/32,no-resolve
+IP-CIDR,188.172.228.65/32,no-resolve
+DOMAIN,apple-cdn.net
+DOMAIN,ddys.pro
