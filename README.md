@@ -12,7 +12,7 @@
 | [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
-| [115](Services/115.list) | 115 服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/115.list) |
+| [合并直连](Network/Combined-Direct.list) | 局域网域名、指定网段、115 网盘与酷安头像 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Combined-Direct.list) |
 
 ## 快速接入
 
@@ -117,15 +117,12 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 | [俄罗斯](russia.list) | 俄罗斯地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/russia.list) |
 | [韩国](korea.list) | 韩国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/korea.list) |
 | [新加坡线路](Network/Singapore.list) | 指定使用新加坡线路的主机 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Singapore.list) |
-| [IP 直连](Network/Direct-IP.list) | 按目标 IP 匹配的直连例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Direct-IP.list) |
 
 ### 应用例外与拦截
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
 | [字节跳动直连](ByteDance/Direct.list) | 字节跳动服务与 SDK 接口 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ByteDance/Direct.list) |
-| [豆瓣](Services/Douban.list) | 豆瓣域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Douban.list) |
-| [酷安](Services/Coolapk.list) | 酷安头像服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Coolapk.list) |
 | [Quora](quora.list) | 问答平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/quora.list) |
 | [官服规则](guanfu.list) | 现有官服分流清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/guanfu.list) |
 | [反诈规则](Fanzha) | 现有反诈相关清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Fanzha) |
@@ -157,11 +154,10 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 
 | 策略 | 规则与参数 |
 | --- | --- |
-| `DIRECT` | 小米互联、115、Microsoft、Parallels、字节跳动、酷安。IP 直连带 `no-resolve`，公司办公规则带 `extended-matching` |
+| `DIRECT` | 小米互联、合并直连、豆瓣、Microsoft、Parallels、字节跳动。IP 直连带 `no-resolve`，公司办公规则带 `extended-matching` |
 | `Apple 推送` | 本仓库的 APNs 补充清单与 [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list)。原组包含香港负载均衡、香港智选和直连 |
 | `REJECT` | 拦截例外。Apple 广告端点在 Surge 引用行带 `pre-matching` |
 | 地区策略 | 极光推送用香港负载均衡，歌词用香港智选，日本媒体用日本智选，新加坡线路用新加坡智选 |
 | `Yellow` | 下载与支付、成人媒体。成人媒体带 `no-resolve` |
-| `CELLULAR` | 豆瓣的 Surge iOS 策略，引用带 `extended-matching` |
 
 </details>
