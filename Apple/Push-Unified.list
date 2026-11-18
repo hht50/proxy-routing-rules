@@ -1,0 +1,24 @@
+# Apple APNs 与极光推送
+# APNs 独有补充来自 QuixoticHeart 的 apns.list，保留 Apple 专属 akadns.net 域名。
+
+# 极光推送
+DOMAIN-SUFFIX,jpush.cn
+
+# Apple APNs 域名与辅助服务
+DOMAIN,identity.apple.com
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+
+# IPv4
+IP-CIDR,17.249.0.0/16,no-resolve
+IP-CIDR,17.252.0.0/16,no-resolve
+IP-CIDR,17.57.144.0/22,no-resolve
+IP-CIDR,17.188.128.0/18,no-resolve
+IP-CIDR,17.188.20.0/23,no-resolve
+
+# IPv6
+IP-CIDR6,2620:149:a44::/48,no-resolve
+IP-CIDR6,2403:300:a42::/48,no-resolve
+IP-CIDR6,2403:300:a51::/48,no-resolve
+IP-CIDR6,2a01:b740:a42::/48,no-resolve
