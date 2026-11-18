@@ -1,0 +1,14 @@
+# Microsoft Copilot、Designer 与 GitHub Copilot
+# 配置中放在 Microsoft 通用直连之前
+DOMAIN,copilot.microsoft.com
+DOMAIN-SUFFIX,designer.microsoft.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,ecs.office.com
+DOMAIN-SUFFIX,designerapp.osi.office.net
+DOMAIN-SUFFIX,designerapp.officeapps.live.com
+DOMAIN,www.bing.com
+DOMAIN,sydney.bing.com
+DOMAIN,edgeservices.bing.com
+DOMAIN,www.bingapis.com
+DOMAIN,studiostaticassetsprod.azureedge.net
+DOMAIN,copilot-proxy.githubusercontent.com
