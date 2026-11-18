@@ -1,16 +1,3 @@
-# Microsoft 和 Copilot 直连
-
-# Copilot 核心及辅助域名
-# copilot.microsoft.com 和 designer.microsoft.com 由末尾的 Microsoft 通用规则覆盖
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,ecs.office.com
-DOMAIN-SUFFIX,designerapp.osi.office.net
-DOMAIN-SUFFIX,designerapp.officeapps.live.com
-DOMAIN,www.bing.com
-DOMAIN,sydney.bing.com
-DOMAIN,edgeservices.bing.com
-DOMAIN,www.bingapis.com
-DOMAIN,studiostaticassetsprod.azureedge.net
-
-# Microsoft 主域及子域
+# Microsoft 主域及子域直连
+# Copilot 专用规则在客户端中优先匹配
 DOMAIN-SUFFIX,microsoft.com
