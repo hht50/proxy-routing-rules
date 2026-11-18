@@ -1,0 +1,6 @@
+# Proxy 分流，Surge 绑定香港智选
+# Kelee 服务及子域
+DOMAIN-SUFFIX,kelee.one
+
+# VPS 服务主机
+DOMAIN,ap-singapore-1.vds.qzz.io
