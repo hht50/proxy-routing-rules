@@ -58,8 +58,6 @@ rules:
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [公司办公与认证](Services/Company-Office.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Company-Office.list) |
 | [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Jobfind) |
-| [Copilot](Copilot) | Microsoft Copilot | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Copilot) |
-| [AI 服务](ai) | AI 服务分流 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ai) |
 
 ### AI 专用规则
 
@@ -68,6 +66,7 @@ rules:
 | [ChatGPT.list](AI/ChatGPT.list) | ChatGPT、OpenAI、Codex |
 | [Gemini.list](AI/Gemini.list) | Gemini、AI Studio、NotebookLM |
 | [Copilot-Core.list](AI/Copilot-Core.list) | Microsoft 和 GitHub Copilot 核心域名 |
+| [Copilot-Auxiliary.list](AI/Copilot-Auxiliary.list) | Bing、Edge 和 Designer 辅助端点 |
 | [AI-Overseas.list](AI/AI-Overseas.list) | AI·全球 |
 | [Apple-Intelligence.list](AI/Apple-Intelligence.list) | Apple Intelligence、Siri、Apple Relay |
 
