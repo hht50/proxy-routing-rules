@@ -61,9 +61,19 @@ rules:
 | [Copilot](Copilot) | Microsoft Copilot | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Copilot) |
 | [AI 服务](ai) | AI 服务分流 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ai) |
 
+### AI 专用规则
+
+| 规则集 | 用途 |
+| --- | --- |
+| [ChatGPT.list](AI/ChatGPT.list) | ChatGPT、OpenAI、Codex |
+| [Gemini.list](AI/Gemini.list) | Gemini、AI Studio、NotebookLM |
+| [Copilot-Core.list](AI/Copilot-Core.list) | Microsoft 和 GitHub Copilot 核心域名 |
+| [AI-Overseas.list](AI/AI-Overseas.list) | AI·全球 |
+| [Apple-Intelligence.list](AI/Apple-Intelligence.list) | Apple Intelligence、Siri、Apple Relay |
+
 ### AI 上游规则参考
 
-[VPSDance Global AI（Surge 订阅地址）](https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/global.list) 收录全球 AI 服务的分流规则，可用于检索域名、核对覆盖范围和补充本仓库的 [AI·全球规则集](Services/AI-Overseas.list)。[上游项目](https://github.com/VPSDance/ai-proxy-rules)
+[VPSDance Global AI（Surge 订阅地址）](https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/global.list) 收录全球 AI 服务的分流规则，可用于检索域名、核对覆盖范围和补充本仓库的 [AI·全球规则集](AI/AI-Overseas.list)。[上游项目](https://github.com/VPSDance/ai-proxy-rules)
 
 如需在 Surge 中单独引用，可以在 `[Rule]` 中加入以下规则，策略组名称按实际配置填写。
 
