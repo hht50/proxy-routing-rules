@@ -53,7 +53,7 @@ rules:
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
 | [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list) |
-| [Microsoft 直连](Microsoft/Direct.list) | 微软服务例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Microsoft/Direct.list) |
+| [Microsoft 直连](Microsoft/Direct.list) | Microsoft、Copilot、Bing 和 Designer 直连 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Microsoft/Direct.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [公司办公与认证](Services/Company-Office.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Company-Office.list) |
 | [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Jobfind) |
@@ -64,8 +64,6 @@ rules:
 | --- | --- |
 | [ChatGPT.list](AI/ChatGPT.list) | ChatGPT、OpenAI、Codex |
 | [Gemini.list](AI/Gemini.list) | Gemini、AI Studio、NotebookLM |
-| [Copilot-Core.list](AI/Copilot-Core.list) | Microsoft 和 GitHub Copilot 核心域名 |
-| [Copilot-Auxiliary.list](AI/Copilot-Auxiliary.list) | Bing、Edge 和 Designer 辅助端点 |
 | [AI-Overseas.list](AI/AI-Overseas.list) | AI·全球 |
 | [Apple-Intelligence.list](AI/Apple-Intelligence.list) | Apple Intelligence、Siri、Apple Relay |
 
