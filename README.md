@@ -12,7 +12,7 @@
 | [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
-| [合并直连](Network/Combined-Direct.list) | 局域网域名、指定网段、115 网盘与酷安头像 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Combined-Direct.list) |
+| [合并直连](Network/Combined-Direct.list) | 局域网域名、指定网段、115 网盘、酷安头像、Parallels 与字节跳动 SDK | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Combined-Direct.list) |
 
 ## 快速接入
 
@@ -54,7 +54,6 @@ rules:
 | --- | --- | --- |
 | [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list) |
 | [Microsoft 直连](Microsoft/Direct.list) | 微软服务例外 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Microsoft/Direct.list) |
-| [Parallels 直连](Parallels/Direct.list) | 虚拟机软件服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Parallels/Direct.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [公司办公与认证](Services/Company-Office.list) | 企业服务域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Company-Office.list) |
 | [求职](Jobfind) | 求职站点 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Jobfind) |
@@ -122,7 +121,6 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [字节跳动直连](ByteDance/Direct.list) | 字节跳动服务与 SDK 接口 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/ByteDance/Direct.list) |
 | [Quora](quora.list) | 问答平台 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/quora.list) |
 | [官服规则](guanfu.list) | 现有官服分流清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/guanfu.list) |
 | [反诈规则](Fanzha) | 现有反诈相关清单 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Fanzha) |
