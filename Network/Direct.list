@@ -1,6 +1,0 @@
-# 局域网域名直连（Surge / Mihomo classical）
-DOMAIN,localhost
-DOMAIN-SUFFIX,local
-DOMAIN-SUFFIX,lan
-DOMAIN-SUFFIX,localdomain
-DOMAIN-SUFFIX,home.arpa
