@@ -1,0 +1,16 @@
+# 局域网、指定网段与常用服务直连
+# 本机与局域网域名
+DOMAIN,localhost
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,localdomain
+DOMAIN-SUFFIX,home.arpa
+
+# 指定网段，仅匹配已有 IP，避免为此规则发起 DNS 查询
+IP-CIDR,100.65.48.0/24,no-resolve
+
+# 115 网盘官网及子域
+DOMAIN-SUFFIX,115.com
+
+# 酷安头像资源及子域
+DOMAIN-SUFFIX,avatar.coolapk.com
