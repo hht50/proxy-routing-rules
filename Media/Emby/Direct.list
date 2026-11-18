@@ -4,3 +4,9 @@ DOMAIN,a.115cdn.de
 DOMAIN,directstream-bljb7fnhtkyxwfrw.apple-cdn.net
 # 玛卡巴卡公益反代网站
 DOMAIN,luvme.de5.net
+
+# iill 与影视播放资源，保留原扩展匹配选项
+DOMAIN,iill.top:443,extended-matching
+DOMAIN-SUFFIX,iill.top
+DOMAIN,m3u8.hmrvideo.com,extended-matching
+DOMAIN,assets.heimuer.tv,extended-matching
