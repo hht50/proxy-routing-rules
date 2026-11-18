@@ -9,7 +9,7 @@
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
 | [飞书 · Lark](Services/Feishu.list) | 飞书中国版和 Lark 国际版 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Feishu.list) |
-| [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
+| [合并推送](Apple/Push-Unified.list) | Surge 的 Apple APNs 与极光推送 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push-Unified.list) |
 | [小米互联](Xiaomi/HyperConnect.list) | 实测域名和 IP | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Xiaomi/HyperConnect.list) |
 | [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
 | [合并直连](Network/Combined-Direct.list) | 局域网域名、指定网段、115 网盘、酷安头像、Parallels 与字节跳动 SDK | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Network/Combined-Direct.list) |
@@ -82,6 +82,7 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
+| [合并推送](Apple/Push-Unified.list) | Surge 统一走 `Apple 推送` 策略组 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push-Unified.list) |
 | [Apple 推送](Apple/Push.list) | APNs 域名、IPv4 和 IPv6 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Apple/Push.list) |
 | [极光推送](AppServices/JPush.list) | JPush 服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/AppServices/JPush.list) |
 | [LINE](LINE) | LINE 服务 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/LINE) |
@@ -97,19 +98,21 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 | --- | --- |
 | [中国大陆直连](Media/China/ChinaShortDrama.list) | 国内短剧、悦听吧、体育直播、Emby 直连 |
 | [日本媒体](Media/Japan/JapanMedia.list) | 日本出口 |
-| [韩国媒体](Media/Korea/HanXiaoQuan.list) | 韩小圈、SOOP |
-| [代理自选](Media/Proxy/Proxy.list) | 观影优选 / PROXY |
+| [韩国媒体](Media/Korea/KoreaMedia.list) | 韩小圈、SOOP |
+| [媒体代理合并清单](Media/Proxy/Media-Proxy.list) | Surge 香港智选，覆盖追番、图片、歌词、TMDB、Trakt 和 IntroDB |
+| [基础媒体代理](Media/Proxy/Proxy.list) | Mihomo 仍使用的基础清单 |
 | [Emby 专项](Media/Emby/) | 服务、直连及代理线路 |
-| [影视元数据与歌词](Media/Metadata/) | TMDB、Trakt、歌词 |
+| [影视元数据与歌词](Media/Metadata/) | TMDB、Trakt、IntroDB、歌词 |
 | [媒体社交](Media/Social/) | TikTok |
-| [成人媒体](Media/Adult/General.listlt/) | 通用及越南版 |
+| [成人媒体](Media/Adult/General.list) | 通用及越南版 |
 
-旧媒体路径已删除，Surge 与 Mihomo 主配置已切换到 Media 新路径；其他客户端需同步更新旧订阅地址。
+Surge 的影视区使用 Emby 直连、Emby 代理、媒体代理合并清单和成人媒体四份规则。Mihomo 仍有独立的媒体订阅。
 
 ### 地区与网络
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
+| [通用代理](Proxy/Proxy.list) | Surge 绑定香港智选 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Proxy/Proxy.list) |
 | [越南通用](vngeneral) | 越南地区通用规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/vngeneral) |
 | [英国](unitedkingdom) | 英国地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/unitedkingdom) |
 | [俄罗斯](russia.list) | 俄罗斯地区规则 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/russia.list) |
@@ -130,7 +133,6 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 
 | 规则集 | 用途 | 订阅地址 |
 | --- | --- | --- |
-| [Emby 服务](Media/Emby.list) | 自用 Emby 和关联资源域名 | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Media/Emby.list) |
 | [开发服务直连](Services/Developer-Direct.list) | NewCLI 和 DuckCoding | [Raw](https://raw.githubusercontent.com/hht50/proxy-routing-rules/main/Services/Developer-Direct.list) |
 
 ## 维护说明
@@ -152,9 +154,9 @@ RULE-SET,https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/surge/gl
 | 策略 | 规则与参数 |
 | --- | --- |
 | `DIRECT` | 小米互联、合并直连、豆瓣、Microsoft、Parallels、字节跳动。IP 直连带 `no-resolve`，公司办公规则带 `extended-matching` |
-| `Apple 推送` | 本仓库的 APNs 补充清单与 [外部 apns.list](https://github.com/QuixoticHeart/rule-set/blob/ruleset/loon/apns.list)。原组包含香港负载均衡、香港智选和直连 |
+| `Apple 推送` | Surge 使用 [合并推送](Apple/Push-Unified.list)。Mihomo 仍分别引用 APNs 与极光推送 |
 | `REJECT` | 拦截例外。Apple 广告端点在 Surge 引用行带 `pre-matching` |
-| 地区策略 | 极光推送用香港负载均衡，歌词用香港智选，日本媒体用日本智选，新加坡线路用新加坡智选 |
+| 地区策略 | Mihomo 的极光推送用香港负载均衡，Surge 的歌词走香港智选，日本媒体用日本智选，新加坡线路用新加坡智选 |
 | `Yellow` | 下载与支付、成人媒体。成人媒体带 `no-resolve` |
 
 </details>
