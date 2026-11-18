@@ -1,0 +1,25 @@
+# 媒体服务与影视元数据代理
+
+# 追番、悦听吧图片和歌词
+DOMAIN-SUFFIX,api.xifanacg.com
+DOMAIN-SUFFIX,apn.moedot.net
+DOMAIN-SUFFIX,play.xfvod.pro
+DOMAIN-SUFFIX,dl.playxf.top
+DOMAIN-SUFFIX,images.weserv.nl
+DOMAIN,lrc.xms.mx
+
+# TMDB
+DOMAIN-SUFFIX,themoviedb.org
+DOMAIN,api.themoviedb.org
+DOMAIN,image.tmdb.org
+DOMAIN-SUFFIX,tmdb.org
+
+# Trakt
+DOMAIN-SUFFIX,trakt.tv
+DOMAIN,api.trakt.tv
+DOMAIN,api-staging.trakt.tv
+DOMAIN-SUFFIX,walter-r2.trakt.tv
+
+# IntroDB
+DOMAIN,api.introdb.app
+DOMAIN,api.theintrodb.org
