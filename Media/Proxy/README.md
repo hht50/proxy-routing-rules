@@ -1,7 +1,8 @@
-# 🔀 通用代理媒体规则
+# 媒体代理规则
 
-**统一规则集：** [Proxy.list](Proxy.list)，包含 XifanACG 追番、悦听吧图片代理 `images.weserv.nl`；客户端绑定 `观影优选` 或对应代理策略。
+| 清单 | 当前用途 |
+| --- | --- |
+| [Media-Proxy.list](Media-Proxy.list) | Surge 的香港智选入口，包含追番、悦听吧图片、歌词、TMDB、Trakt 和 IntroDB |
+| [Proxy.list](Proxy.list) | Mihomo 仍在引用的基础清单，包含追番、悦听吧图片和歌词 |
 
-不再按网站创建独立规则文件。`images.weserv.nl` 是共享图片代理域名，可能影响其他站点。
-
-XifanACG 已合并至 `Proxy.list`，旧独立副本已删除。
+`images.weserv.nl` 是共享图片代理域名，匹配它也可能影响其他站点。
